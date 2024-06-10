@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+
+}header{
+    
+    width: 100vw;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+
+}
+main{
+    background-color:white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    float: left;
+    gap:20px;
+    
+}
+li, a{
+    
+    list-style:none ;
+     text-decoration: none;
+    color:white;
+   
+}
+
+li:hover{
+    background-color: green;
+    border-radius:10px;
+
+}
+#logo{
+    border-radius: 30px;
+    width: 70px;
+}
+#basquete{
+  
+    border-radius: 30px; 
+    width: 90%;
+
+}
+       
+h1,p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
